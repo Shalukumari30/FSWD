@@ -1,0 +1,28 @@
+*{
+    padding-left: 100px;
+}
+
+.container{
+    display: grid;
+  padding: 0;
+    grid-template-columns:repeat(8, 100px) ;
+    grid-template-rows: repeat(8,100px);
+border: 1px solid black;
+width: 800px;
+
+   
+}
+
+
+.white{
+      background-color:white;
+      height: 100px;
+      width: 100px;
+    }
+    
+
+    .black{
+      background-color:black;
+      height: 100px;
+      width: 100px;
+    }
