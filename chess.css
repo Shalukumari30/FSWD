@@ -1,25 +1,21 @@
 *{
-    padding-left: 100px;
+    background-color: rgb(164, 156, 156);
 }
 
 .container{
     display: grid;
-  padding: 0;
     grid-template-columns:repeat(8, 100px) ;
     grid-template-rows: repeat(8,100px);
-border: 1px solid black;
+border: none;
 width: 800px;
-
-   
+margin: 100px auto;
 }
-
-
+  
 .white{
       background-color:white;
       height: 100px;
       width: 100px;
     }
-    
 
     .black{
       background-color:black;
